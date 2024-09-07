@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    //Theme Color
+    <color name="green_color">#168A00</color>
+    <color name="red_color">#C50000</color>
+    <color name="light_red">#FFD5D5</color>
+
+
+
+    // app_color
+    <color name="app_color">#0B4F77</color>
+
+
+    //Menu Bar(Nav Header)
+    <color name="bg_color">#121212</color>
+    <color name="grey">#BEBEBE</color>
+
+
+</resources>

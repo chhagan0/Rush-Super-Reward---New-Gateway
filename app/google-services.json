@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "813919954008",
+    "firebase_url": "https://box-dollars-default-rtdb.firebaseio.com",
+    "project_id": "box-dollars",
+    "storage_bucket": "box-dollars.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813919954008:android:b4aeaf5bef6d5b0848d62d",
+        "android_client_info": {
+          "package_name": "com.superreward.rushsuperreward"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA19X4HU1IF9pyviA08jkdr_8_qHTEH-2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

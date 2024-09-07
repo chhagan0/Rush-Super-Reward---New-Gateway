@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Rush Super Reward</string>
+    <string name="home">Home</string>
+    <string name="privacy_amp_policy"><![CDATA[Privacy & Policy]]></string>
+    <string name="terms_amp_condition"><![CDATA[Terms & Condition]]></string>
+    <string name="communicate">Communicate</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="exit_app">Exit App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="spin_now">Spin Now</string>
+
+
+    <!--spin value-->
+    <string name="case_1">15</string>
+    <string name="case_2">20</string>
+    <string name="case_3">-10</string>
+    <string name="case_4">25</string>
+    <string name="case_5">45</string>
+    <string name="case_6">60</string>
+    <string name="case_7">50</string>
+    <string name="case_8">35</string>
+    <string name="case_9">5</string>
+    <string name="case_10">30</string>
+    <string name="case_11">70</string>
+    <string name="case_12">10</string>
+    <string name="case_13">-25</string>
+    <string name="case_14">55</string>
+    <string name="case_15">40</string>
+
+
+    //Menu Bar(Nav Bar)
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="exit">EXIT</string>
+    <string name="cancel">Cancel</string>
+    <string name="wallet">Wallet</string>
+
+    //Welcome Message
+    <string name="note">Welcome to Pocket Paisa App</string>
+    <string name="payment">Deposit</string>
+    <string name="amount_payable">Amount Payable</string>
+    <string name="use_mobile_scan_code_to_pay">Use Mobile Scan code to pay</string>
+    <string name="copy_the_below_given_upi">Copy the below given UPI</string>
+    <string name="submit">Submit</string>
+    <string name="gpay">GPay</string>
+    <string name="phonepe">PhonePay</string>
+    <string name="paytm">Paytm</string>
+    <string name="other">Other</string>
+    <string name="upiid">UPIID:</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="tips">Tips:</string>
+    <string name="please_do_not_include_any_words_in_remarks">Please do not include any words in remarks.</string>
+    <string name="the_transaction_funds_are_guaranteed_by_the_platform_throughout_the_process_which_is_very_safe">The transaction funds are guaranteed by the platform throughout the process, which is very safe.</string>
+    <string name="if_you_have_paid_please_upload_a_payment_screenshot">If you have paid, Please upload a payment screenshot</string>
+</resources>

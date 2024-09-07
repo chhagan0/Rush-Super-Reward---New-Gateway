@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    tools:context=".LoginActivity">
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        app:lottie_rawRes="@raw/loginanim"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/animationView"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:background="@drawable/topcorner_round"
+        android:orientation="vertical"
+       >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:text="Log-in"
+    android:textStyle="bold"
+    android:textSize="32sp"
+    android:layout_margin="@dimen/_15sdp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Name"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_10sdp"
+
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:id="@+id/etUserName"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Number"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:maxLength="10"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:id="@+id/etUserNumber"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:id="@+id/btnLogin"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:backgroundTint="@color/app_color"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:text="Login"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</RelativeLayout>
